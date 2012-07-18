@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/httpcomponents-client-4.2.1/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/httpcomponents-client-4.2.1/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/httpcomponents-client-4.2.1/lib/fluent-hc-4.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/httpcomponents-client-4.2.1/lib/httpclient-4.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/httpcomponents-client-4.2.1/lib/httpclient-cache-4.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/httpcomponents-client-4.2.1/lib/httpcore-4.2.1.jar" sourcepath="/home/congzicun/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1-sources.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/httpcomponents-client-4.2.1/lib/httpmime-4.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/commons-codec-1.6/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/commons-codec-1.6/commons-codec-1.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/commons-codec-1.6/commons-codec-1.6-sources.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/commons-codec-1.6/commons-codec-1.6-tests.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/jsoup/jsoup-1.6.3.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/commons-cli-1.2/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/commons-cli-1.2/commons-cli-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/commons-cli-1.2/commons-cli-1.2-sources.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="/home/congzicun/project/java/crawl-sina-comment/json-20090211.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
