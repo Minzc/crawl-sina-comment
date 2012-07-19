@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>ÐÂÀË»áÔ±</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+
+<script charset="utf-8" src="http://i.sso.sina.com.cn/js/ssologin.js"></script>
+</head>
+<body>
+ÕýÔÚµÇÂ¼ ...
+<script>
+try{sinaSSOController.setCrossDomainUrlList({"retcode":0,"arrURL":["http:\/\/kandian.com\/logon\/do_crossdomain.php?action=login&savestate=1343273470","http:\/\/login.t.cn\/sinaurl\/sso.json?action=login&uid=2063557737"]});}catch(e){}try{sinaSSOController.crossDomainAction('login',function(){location.replace('http://weibo.com/ajaxlogin.php?framelogin=1&callback=parent.sinaSSOController.feedBackUrlCallBack&ssosavestate=1343273470&ticket=ST-MjA2MzU1NzczNw==-1342668670-gz-4BC553CFC23E5A54B090DDA52608A780&retcode=0');});}catch(e){}
+</script>
+</body>
+</html>

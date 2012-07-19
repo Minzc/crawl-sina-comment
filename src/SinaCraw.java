@@ -1,3 +1,5 @@
+
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -32,10 +34,12 @@ public class SinaCraw {
 
 		if (cmd.hasOption("h")) {
 			System.out.println("this is a h");
-		} else if ((cmd.hasOption("r") ^ cmd.hasOption("c"))
+		} 
+		else if ((cmd.hasOption("r") ^ cmd.hasOption("c"))
 				&& cmd.getOptionValue("u") != null
 				&& cmd.getOptionValue("p") != null
 				&& cmd.getOptionValue("url") != null) {
+			System.out.println("Starting Login ...");
 			sina.login(cmd.getOptionValue("u"), cmd.getOptionValue("p"));
 			String name = cmd.getOptionValue("url").replace("http://", "")
 					.replace("weibo.com/", "").replace("/", "_")
@@ -63,7 +67,6 @@ public class SinaCraw {
 			if(cmd.hasOption("id")){
 				al.addAll(sina.crawUerID(cmd.getOptionValue("url")));
 			}
-			System.out.println(typeL + " : " + al.size());
 			WriteContend(al, typeS + "_" + name + System.currentTimeMillis()
 					/ 1000);
 		} else

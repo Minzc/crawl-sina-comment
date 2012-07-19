@@ -23,6 +23,7 @@ import org.apache.http.message.BasicNameValuePair;
 
 import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.protocol.HTTP;
+
 import org.apache.http.util.EntityUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -48,6 +49,7 @@ public class Sina {
 	}
 
 	public ArrayList<String> crawContent(String url) throws Exception {
+		System.out.println("Start Crawing Content...");
 		String json = null;
 		String html = null;
 		ArrayList<String> al = new ArrayList<String>();
@@ -55,15 +57,20 @@ public class Sina {
 
 		String weiboid = extractWeiboID(url);
 		al = getAimUrls(weiboid);
+		int pn = 1;
 		for (String sunurl : al) {
 			json = getJson(urlbase + sunurl);
 			html = extractHtmlFromJson(json);
 			rst.addAll(extractContents(html));
+			System.out.println("Finish Page " + pn);
+			pn++;
 		}
+		System.out.println("Finish Crawing Content.");
 		return rst;
 	}
 
 	public ArrayList<String> crawUerID(String url) throws Exception {
+		System.out.println("Start Crawing ID...");
 		String json = null;
 		String html = null;
 		ArrayList<String> al = new ArrayList<String>();
@@ -71,11 +78,15 @@ public class Sina {
 
 		String weiboid = extractWeiboID(url);
 		al = getAimUrls(weiboid);
+		int pn = 1;
 		for (String sunurl : al) {
 			json = getJson(urlbase + sunurl);
 			html = extractHtmlFromJson(json);
 			rst.addAll(extractUserIDs(html));
+			System.out.println("Finish Page " + pn);
+			pn++;
 		}
+		System.out.println("Finish Crawing ID.");
 		return rst;
 	}
 
